@@ -1,1 +1,1 @@
-# Hanabi-Ranking.com
+# Hanabi-Ranking
