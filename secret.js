@@ -12,7 +12,7 @@ function runSecret(){
     else {alert("Too fast!");}
 }
 function randombg(){
-    var random = Math.floor(Math.random() * 10);
+   var random = Math.floor(Math.random() * 10);
    var bg = 
     [
         url('https://lh3.googleusercontent.com/pw/AJFCJaX5boccS4UfXP1TxsuDGvjOYEYryv5trmyaGN3_oEoRf3_y4EmQoz4wW01RVXKOtPDeS0f3yCVzydrKbPW-z1C2hIaOQFwh01tHg_70fKS4U1ZF7uXUpwheeDVXYONjM5-9NqBBM5VXDISNxWGVF4mU=w1666-h937-s-no?authuser=0'),
