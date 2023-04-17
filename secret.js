@@ -15,16 +15,16 @@ function randombg(){
    var random = Math.floor(Math.random() * 10);
    var bg = 
     [
-        "url('https://download1592.mediafire.com/0n7itae7hxzg0DpLUWNwNiSuJYlANpsUUgkR1MfNNtM4GNV6HcIb1hPQMmj3_At1YClglfde7Nzrouo7cJhabhwIZuythw/zoqyltqqpf8v8tp/01470031.jpg')",
-        "url('https://download1589.mediafire.com/64ghuvfvzysgXC9_DE5Q3LcF8bbe_zSyWc85JgDseKb6r1YsVyc6Q4J03j_RxkZEggt9whLQZUxq5lH1zi7bkGZSVK1HOA/ieditx1n4s2ncmg/04820013.jpg')",
-        "url('https://download1472.mediafire.com/c1uy1mj7qmkgxPapCL-fGnPyOyowODUudMm5NftrzbN6HKE1-LU24UGxYNDNh4FB1HFfKQd43mvCXiVylK95np2URsQNkA/arvhs4bhy1sdvxg/06790010.jpg')",
-        "url('https://download849.mediafire.com/wmv5rykt60lgglW5Jy0C3u7a2hIlaLBhgKBaf3Zvsm0e9s288foJyxZorMq7ywVAzzcAaHucXiv6mjbatUjennd2UvoD7A/ed1sk2wdrcge5tj/07100013.jpg')",
-        "url('https://download1525.mediafire.com/8t3435w0v4dgYvpSkxKC_vCaxNkSHTZDSzDC5yysEHYJ2pjafgaty2-tmPmFhwde3TxJRpPUzYIRIbyfYwKQERFuefhvwA/m11ksy6kjwdcyiw/07100020.jpg')",
-        "url('https://download1484.mediafire.com/wwempy5we3agvSwfVpjLCH-lKXeb7MzG9KvFH0TkUgKayG2OT16RlMqgnMH4BF11HI_oy3t8JqhhSmQcu2sfyOI9J6Vj_Q/93xdg94qtyv9nzd/08680016.jpg')",
-        "url('https://download1528.mediafire.com/k8huuvif9vwgsIRW2N9ZkP3TzahNgGM1kDqhEbT9dcIEeDy_KPwjHaCTxiG1AgROg4F_yP3W_jgyjrATGJQoDzk_4x7USw/vtmm3ewq14bvf78/09310029.jpg')",
-        "url('https://download1580.mediafire.com/wdui8f8phl6gQnwleBdUV_9ElsPBoOHUh6dPV8FxlnEp2GUpOat3oMHRPbUtnIzR7GiKHT20I9wXNu0Li0goHGr614FuPg/6lph70agonxip8m/09870035.jpg')",
-        "url('https://download1085.mediafire.com/ajy2faoit5rg0v5sOcVW1IrEhOpqrKNyw1AX7RtJij3ffcTA2x8-hoQMBGzPAVVKhHfH1m0cckw0fEuNdGjyx4G03-fCyg/0cjytjwjbbbcxnd/735301.jpg')",
-        "url('https://download1515.mediafire.com/9pd6pjrrztjgbhqChUyvFb4WZioqX_nBBpcz_kN5ZQdC6BWNg3iofiv5_Zu0NzSpIV3BIX09XtV8HYJG9zWz1q14wCLzyg/4s8315d10x33eeg/Clannad.jpg')"
+        "url('https://i.pinimg.com/originals/52/a2/62/52a262d0944bcf487bf6c323c7c64c67.jpg')",
+        "url('https://i.pinimg.com/originals/94/51/b8/9451b81a7c6e07d63ad7d26d7fc38e0a.jpg')",
+        "url('https://i.pinimg.com/originals/28/61/fe/2861fe7c95b8124208fecdf63f818572.jpg')",
+        "url('https://i.pinimg.com/originals/5f/32/73/5f32731ab2f9e18ce9509913c05eac4b.jpg')",
+        "url('https://i.pinimg.com/originals/07/ca/ae/07caae2cd643c3f2f4db40b1917f4f8f.jpg')",
+        "url('https://i.pinimg.com/originals/ec/82/a2/ec82a258956c9f4ad923c115454aaf10.jpg')",
+        "url('https://i.pinimg.com/originals/bb/37/a6/bb37a6037cce5fc895a8450914a07458.jpg')",
+        "url('https://i.pinimg.com/originals/1b/27/86/1b2786f1cee290a4b548c46d2b78b37d.jpg')",
+        "url('https://i.pinimg.com/originals/b3/a7/99/b3a79923cb5dc7add78054d5d005801a.jpg')",
+        "url('https://i.pinimg.com/originals/26/59/93/2659934c11ee4ca9305de593b8c1e401.jpg')"
     ];
     if(currentbg == random){randombg();}
     else{
