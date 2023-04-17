@@ -15,16 +15,16 @@ function randombg(){
    var random = Math.floor(Math.random() * 10);
    var bg = 
     [
-        "url('https://i.pinimg.com/originals/52/a2/62/52a262d0944bcf487bf6c323c7c64c67.jpg')",
-        "url('https://i.pinimg.com/originals/94/51/b8/9451b81a7c6e07d63ad7d26d7fc38e0a.jpg')",
-        "url('https://i.pinimg.com/originals/28/61/fe/2861fe7c95b8124208fecdf63f818572.jpg')",
-        "url('https://i.pinimg.com/originals/5f/32/73/5f32731ab2f9e18ce9509913c05eac4b.jpg')",
-        "url('https://i.pinimg.com/originals/07/ca/ae/07caae2cd643c3f2f4db40b1917f4f8f.jpg')",
-        "url('https://i.pinimg.com/originals/ec/82/a2/ec82a258956c9f4ad923c115454aaf10.jpg')",
-        "url('https://i.pinimg.com/originals/bb/37/a6/bb37a6037cce5fc895a8450914a07458.jpg')",
-        "url('https://i.pinimg.com/originals/1b/27/86/1b2786f1cee290a4b548c46d2b78b37d.jpg')",
-        "url('https://i.pinimg.com/originals/b3/a7/99/b3a79923cb5dc7add78054d5d005801a.jpg')",
-        "url('https://i.pinimg.com/originals/26/59/93/2659934c11ee4ca9305de593b8c1e401.jpg')"
+        "url('https://wallpapermoon.com/wp-content/uploads/2022/03/06790036.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2021/08/01470031.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2021/08/01470020.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2022/03/06790018.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2022/03/06790010.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2022/03/06790007.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2021/09/02340045.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2021/09/02340012.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2022/06/02770073.jpg')",
+        "url('https://wallpapermoon.com/wp-content/uploads/2022/06/02770071.jpg')"
     ];
     if(currentbg == random){randombg();}
     else{
