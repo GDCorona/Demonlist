@@ -34,7 +34,7 @@ h1{
     padding: 5%;
 }
 .demonlist li{
-    animation: move3 1s ease-in both;
+    animation: move3 1s ease-out both;
     overflow:hidden;
     margin: 0 0 4% 0;
     border-radius: 30px;
@@ -75,7 +75,7 @@ h1{
     text-align: center;
 }
 #theme{
-    animation: move1 1s ease-in both;
+    animation: move1 1s ease-out both;
     background-color: var(--color3);
     color: var(--color2);
     font-family: inherit;
@@ -94,7 +94,7 @@ h1{
 #about{
     display:inline-block;
     text-decoration: none;
-    animation: move2 1s ease-in both;
+    animation: move2 1s ease-out both;
     background-color: var(--color3);
     font-family: inherit;
     font-size: 250%;
@@ -204,7 +204,7 @@ body::after {
 }
 #secret{position: fixed; right: 2vw; bottom:2vw; transition: transform 1s;}
 #secret img{
-    animation: secretmove 1s ease-in both;
+    animation: secretmove 1s ease-out both;
     z-index: 1;
     width: 100px;
     height: 100px;
