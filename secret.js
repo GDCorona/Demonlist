@@ -1,7 +1,8 @@
 var currentbg = -1;
 var currentSounds = -1;
 var check = true;
-setTimeout(function(){document.getElementById("greetingSound").play();}, 1500);
+var body = document.getElementsByTagName("body")[0];
+var secretsounds = document.getElementById("secretSounds");
 function runSecret(){
     if(check) {
         check = false;
@@ -29,7 +30,7 @@ function randombg(){
     if(currentbg == random){randombg();}
     else{
         currentbg = random;
-        document.getElementsByTagName("body")[0].style.backgroundImage = bg[currentbg];
+        body.style.backgroundImage = bg[currentbg];
     }
 }
 function randomSounds(){
@@ -47,8 +48,8 @@ function randomSounds(){
     if(currentSounds == random){randomSounds();}
     else{
         currentSounds = random;
-        document.getElementById("secretSounds").src = sounds[currentSounds];
-        document.getElementById("secretSounds").play();
+        secretsounds.src = sounds[currentSounds];
+        secretsounds.play();
     }
 }
 
