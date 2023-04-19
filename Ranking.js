@@ -7,7 +7,7 @@ LightTheme.addEventListener('click', () =>
 	document.getElementsByTagName("body")[0].style.backgroundImage = "none";
 	document.documentElement.style.setProperty('--cherryblossom', 'none');
 	document.documentElement.style.setProperty('--titlecolor', 'aquamarine');
-    document.documentElement.style.setProperty('--color1', 'aliceblue');
+    	document.documentElement.style.setProperty('--color1', 'aliceblue');
 	document.documentElement.style.setProperty('--color2', 'black');
 	document.documentElement.style.setProperty('--color3', 'skyblue');
 	document.documentElement.style.setProperty('--color4', 'rgb(70, 115, 133)');
@@ -17,7 +17,7 @@ DarkTheme.addEventListener('click', () =>
 	document.getElementsByTagName("body")[0].style.backgroundImage = "none";
 	document.documentElement.style.setProperty('--cherryblossom', 'none');
 	document.documentElement.style.setProperty('--titlecolor', 'aquamarine');
-    document.documentElement.style.setProperty('--color1', 'black');
+    	document.documentElement.style.setProperty('--color1', 'black');
 	document.documentElement.style.setProperty('--color2', 'aliceblue');
 	document.documentElement.style.setProperty('--color3', 'skyblue');
 	document.documentElement.style.setProperty('--color4', 'rgb(70, 115, 133)');
@@ -27,7 +27,7 @@ SakuraTheme.addEventListener('click', () =>
 	document.getElementsByTagName("body")[0].style.backgroundImage = "none";
 	document.documentElement.style.setProperty('--cherryblossom', 'block');
 	document.documentElement.style.setProperty('--titlecolor', 'pink');
-    document.documentElement.style.setProperty('--color1', 'rgba(250, 206, 246, 0.829)');
+    	document.documentElement.style.setProperty('--color1', 'rgba(250, 206, 246, 0.829)');
 	document.documentElement.style.setProperty('--color2', 'rgb(223, 14, 129)');
 	document.documentElement.style.setProperty('--color3', 'pink');
 	document.documentElement.style.setProperty('--color4', 'rgba(201, 129, 230, 0.3)');
