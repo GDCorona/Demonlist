@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+        <title> About - Hanabi Ranking</title>
+        <link rel="icon" type="image/x-icon" href="./Photos/icon.png">
+        <link rel= "stylesheet" href = "./Ranking.css">
+        <link rel = "stylesheet" href = "./about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1> Meet the lame guy who made this atrocious website</h1>
+        <hr>
+        <div class = menubar>
+            <button id = "theme"> Theme </button>
+            <a id = "about" href = "https://gdcorona.github.io/Hanabi-Ranking/"> Top 20 </a>
+        </div>
+        <div id = "changeTheme" class = "modal">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <span id = "close" class = "closeTheme">&times;</span>
+                    <h2>Choose theme</h2>
+                </div>
+                <div class = "themeOption">
+                    <button id = "light"> Light </button>
+                    <button id = "dark"> Dark </button>
+                    <button id = "sakura"> Sakura </button>
+                </div>
+            </div>
+        </div>
+        <div id = "secret" onclick="runSecret()" >
+            <img src = "https://i.pinimg.com/originals/bb/ec/d5/bbecd51bf71a302e745d2bd2c8a2073e.jpg">
+        </div>
+        <img id = "avt" src= "https://i.pinimg.com/originals/99/14/4d/99144d939cef3c03390edef3ffb9e0f6.jpg" alt="pfp">
+        <p id = "name">Hanabi</p>
+        <p>
+            Love: Games, Animes, Drawing, Learning Languages, Coding
+            <br>
+            <br> 
+            Games I play: Geometry Dash, The Battle Cats, Survivor.io, Chess.
+            <br>
+            <br> 
+            I am currently learning HTML, CSS and JS and I will try my best to further improve this website and release other projects if I have time. 
+            <br>
+            <br>
+            More importantly, I intend to add more features such as my top favorite animes, anime characters and songs as well so stay tuned!
+        </p>
+        <hr>
+        <p id = "social">Social</p>
+        <div class = "socialLink">
+            <img id = "youtube" class = "icon" src = https://img.icons8.com/dusk/256/youtube-play.png>
+            <h3>Youtube Channel: <a target="_blank" href = "https://www.youtube.com/channel/UCUvegebFzY6JBD13ce3xdjQ">https://www.youtube.com/channel/UCUvegebFzY6JBD13ce3xdjQ</a></h3>
+        </div>
+        <div class = "socialLink">
+            <img id = "facebook" class = "icon" src = https://img.icons8.com/dusk/256/facebook-new--v2.png>
+            <h3>Facebook: <a target="_blank" href = "https://www.facebook.com/profile.php?id=100013302840565"> https://www.facebook.com/profile.php?id=100013302840565</a></h3>
+        </div>
+        <div class = "socialLink">
+            <img id = "discord" class = "icon" src = https://img.icons8.com/dusk/256/discord-logo.png>
+            <h3>Discord: <a target ="_blank" href = "http://discord.com/users/785306828661456906">http://discord.com/users/785306828661456906</a></h3>
+        </div> 
+        <audio id = "greetingSound"><source src = "https://feeds.soundcloud.com/stream/1493606938-corona-689894639-kaguya-noise-1.mp3" type="audio/mp3"></audio>
+        <audio id = "secretSounds"><source src = "" type = "audio/mp3"></audio>
+        <script>
+            var greet = document.getElementById("greetingSound");
+            setTimeout(function(){greet.play();}, 1500);
+            const observer = new IntersectionObserver(entries => {
+                // Loop over the entries
+                entries.forEach(entry => {
+                  // If the element is visible
+                  if (entry.isIntersecting) {
+                    // Add the animation class
+                    entry.target.classList.add("icon-animation");
+                    return;
+                  }
+                  entry.classList.remove('icon-animation');
+                });
+              });
+              observer.observe(document.querySelector("#youtube"));
+              observer.observe(document.querySelector("#facebook"));
+              observer.observe(document.querySelector("#discord"));
+        </script> 
+        <script src = "./Ranking.js"></script>
+        <script src = "./secret.js"></script>
+    </body>
+</html>
